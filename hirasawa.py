@@ -7,4 +7,5 @@ for i in db:
 
 result = str(result)
 with open(r"Result.txt" , "w" , encoding="utf8") as r:
-    r.write("Watt Result : " + result)
+    r.write("Watt Result : " + result + " Wh")
+
